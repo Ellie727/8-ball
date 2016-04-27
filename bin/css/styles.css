@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 27, 2016, 1:52:50 PM
+    Author     : Ellie
+*/
+
+
+
+body{
+    background-image: url("../media/images/bluestars.jpg");
+}
+
+/*Utility class to center objects*/
+.center{
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
+
+/*8-ball style*/
+.q8{
+    width: 21.875em; 
+    height: 21.875em; 
+    border: 3px solid rgba(255,255,255,0.8);
+    border-radius: 21.875em;  
+    background-color: rgba(0,0,0,0.5);   
+    color: rgba(255,255,255,1); 
+}
+
+/*Question slot style*/
+.questionSlot{
+    position: absolute; 
+    outline: none; 
+    display: block; 
+    padding: 0.4375em; 
+    margin-bottom: 0.625em; 
+    height: 2.8125em; 
+    border: none;
+    border-bottom: 0.0625em solid rgba(255,255,255,1); 
+    background: transparent;
+    
+}
+
+/*Ask Button styles*/
+.askButton{
+    position: absolute; 
+    margin-top: 3.125em;
+    background: transparent;  
+    border: 0.1875em solid rgba(255,255,255,1); 
+    border-radius: 0.0625em; 
+    color: rgba(255,255,255,1); 
+}
+
+.askAgainButton{
+    position: absolute; 
+    margin-top: 5em;
+    background: transparent; 
+    border: 0.1875em solid rgba(255,255,255,1); 
+    border-radius: 0.0625em; 
+    color: rgba(255,255,255,1); 
+}
+
+
+
+
+/*Style of 8-ball Response*/
+.responseBox{
+    position: absolute; 
+    height: 3.125em; 
+    background-color: rgba(255,255,255,0.5); 
+    text-align: center; 
+    margin-bottom: 0.625em;  
+    width: 100%; 
+    color: rgba(0,0,0,1); 
+}
+
+/*Utility Styles*/
+.hidden{
+    display: none; 
+}
+
+
+.invalid{
+    background-color: rgba(255, 0, 0, 0.5);
+}
