@@ -2,9 +2,6 @@
 <html>
     <head>
         
-        <!---bootstrap cdn link --->
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        
         <!---link to custom stylesheet -->
         <link rel="stylesheet" type="text/css" href="styles.css">
         
