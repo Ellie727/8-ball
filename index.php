@@ -12,7 +12,7 @@
         <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         
         <!---Google Font--->
-        <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
         
     </head>
