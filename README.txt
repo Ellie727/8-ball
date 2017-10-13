@@ -4,4 +4,3 @@ The table in the database has is very simple and consists of id's and text respo
 
 The technologies used in this projects were HTML, CSS, JavaScript, JQuery, AJAX, PHP, and MySQL. 
 
-Additionally it is tested for cross-browser compatibility. 
